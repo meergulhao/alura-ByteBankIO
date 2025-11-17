@@ -35,11 +35,5 @@ partial class Program
         var texto = utf8.GetString(buffer, 0, bytesLidos);
 
         System.Console.Write(texto);
-
-        // foreach (var meuByte in buffer)
-        // {
-        //     System.Console.Write(meuByte);
-        //     System.Console.Write(" ");
-        // }
     }
 }
